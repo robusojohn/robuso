@@ -1,0 +1,80 @@
+html{
+	font-size: 62.5%;
+    color: #555555;
+}
+.page_wrap {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.page_wrap .page_inner {
+    margin: 0 auto;
+    padding: 2rem 0;
+    box-sizing: border-box;
+}
+.page_wrap .page_inner .container {
+    position: relative;
+    margin: 10px auto;
+    padding: 3rem 5rem;
+    width: 1040px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    clear: both;
+}
+.page_wrap .page_inner .container .nav{
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+.page_wrap .page_inner .container ul{
+	display: flex;
+	justify-content: center;
+}
+.page_wrap .page_inner .container ul a{
+	text-decoration: none;
+	color: #555555;
+	border: 2px solid rgba(0, 0, 0, 0);;
+}
+.page_wrap .page_inner .container ul a:hover{
+	border: 2px solid #ff0000;
+}
+.page_wrap .page_inner .container ul li{
+	padding: 2rem 4rem;
+}
+.page_wrap .page_inner .container .logo{
+	display: flex;
+	background: url(../images/bg_logo.png);
+	background-position: top;
+	background-size: contain;
+	width: 1980px;
+	margin-left: -540px;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	height: 20rem;
+}
+.page_wrap .page_inner .container .logo img{
+    width: 50rem;
+}
+.page_wrap .page_inner .container .ttl{
+	font-size: 3rem;
+	text-align: center;
+	font-weight: bold;
+	margin: 2rem 0;
+	text-transform: uppercase;
+}
+.page_wrap .page_inner .container p{
+	font-size: 1.8rem;
+}
+.page_wrap .page_inner .container .bg_scheme{
+	background:#EFEFEF;
+}
+.page_wrap .page_inner .container .text_contents{
+
+}
+.page_wrap .page_inner .container .text_contents .con_box{
+	display: flex;
+	gap: 3rem;
+}
+.page_wrap .page_inner .container .text_contents .con_box .team_box{
+	padding: 3rem;
+}
