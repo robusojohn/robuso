@@ -45,8 +45,11 @@ html{
 	background: url(../images/bg_logo.png);
 	background-position: top;
 	background-size: contain;
-	width: 1980px;
-	margin-left: -540px;
+	width: 100vw;
+	position: relative;
+	margin-left: -50vw;
+	height: 100px;
+	left: 50%;
 	justify-content: center;
 	align-items: center;
 	align-self: center;
