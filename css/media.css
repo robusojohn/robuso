@@ -1,0 +1,60 @@
+@media only screen
+and (max-width : 1400px) {
+
+}
+
+@media only screen
+and (max-width : 1300px) {
+	
+}
+@media only screen
+and (max-width : 1200px) {
+	
+}
+@media only screen
+and (max-width : 1090px) {
+
+}
+
+@media only screen
+and (max-width : 1020px) {
+    .page_wrap .page_inner .sec{
+        width: 100%;
+    }
+    .page_wrap .page_inner .sec .nav {
+        display:unset;
+    }
+    .page_wrap .page_inner .sec ul {
+        display: unset;
+    }
+    .page_wrap .page_inner .sec .text_contents .con_box{
+        display: block;
+    }
+    .page_wrap .page_inner .sec .text_contents .con_box .team_box{
+        margin-bottom: 2rem;
+    }
+    .page_wrap .page_inner .sec ul li{
+        padding: 2rem 2rem;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+@media only screen
+and (max-width : 1000px) {
+}
+
+@media only screen
+and (max-width : 800px) {
+
+}
+
+@media only screen
+and (max-width : 600px) {
+
+}
+
+@media only screen
+and (max-width : 500px) {
+
+
+}
