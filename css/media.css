@@ -30,12 +30,20 @@ and (max-width : 1020px) {
     .page_wrap .page_inner .sec .text_contents .con_box{
         display: block;
     }
-    .page_wrap .page_inner .sec .text_contents .con_box .team_box{
+    .page_wrap .page_inner .sec .text_contents .con_box .box_section{
         margin-bottom: 2rem;
     }
     .page_wrap .page_inner .sec ul li{
-        padding: 2rem 2rem;
-        border-bottom: 1px solid #fff;
+        padding: 1rem 0;
+        border-bottom: 1px solid black;
+    }
+    .page_wrap .page_inner .sec ul a:hover{
+        border-bottom: none;
+        color: #555555
+    }
+    .page_wrap .page_inner .sec .text_contents .con_box.entrepreneur .box_section{
+        margin: 0;
+        padding: 1rem;
     }
 }
 
@@ -45,7 +53,17 @@ and (max-width : 1000px) {
 
 @media only screen
 and (max-width : 800px) {
-
+    .page_wrap .page_inner .sec .text_contents .contact_us .contact_info{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .page_wrap .footer .bottom_1{
+        flex-direction: column;
+        gap: 0;
+    }
+    .page_wrap .footer .bottom_1 .footer_logo{
+        text-align: center;
+    }
 }
 
 @media only screen

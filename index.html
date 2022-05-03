@@ -4,14 +4,17 @@
 		<meta charset="utf-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/media.css">
+		<style>
+			@import url('../fonts/roboto/Roboto-Regular.ttf');
+		</style>
 	</head>
 	<title>Robuso</title>
 <body>
 	<div class="page_wrap">
-		<div class="page_inner bg_inner-2">
+		<div class="page_inner">
 			<div class="sec">	
 					<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 						<div class="container">
@@ -33,10 +36,10 @@
 									<img src="images/logo2.png" alt="">
 								</figure>
 							</div></li>
-							  <li><a href="#">Home</a></li>
-							  <li><a href="#">Team</a></li>
-							  <li><a href="#">Entrepreneur</a></li>
-							  <li><a href="#">Contact Us</a></li>
+							  <li><a href="#home" rel="smoothscroll">Home</a></li>
+							  <li><a href="#team" rel="smoothscroll">Team</a></li>
+							  <li><a href="#entrepreneur" rel="smoothscroll">Entrepreneur</a></li>
+							  <li><a href="#contactus" rel="smoothscroll">Contact Us</a></li>
 						  </div>
 						</div>
 					  </nav>
@@ -95,7 +98,7 @@
 			</div>
 		<div class="page_inner">
 			<div class="sec">
-				<div class="ttl">
+				<div class="ttl" id="home">
 					<p>About Robuso</p>
 				</div>
 				<div class="text_contents">
@@ -107,20 +110,98 @@
 		</div>
 		<div class="page_inner bg_inner-1">
 			<div class="sec">
-				<div class="ttl">
-					<p>Team</p>
+				<div class="ttl" id="team">
+					<p>Our Team</p>
 				</div>
 				<div class="text_contents">
 					<div class="con_box">
-						<div class="team_box bg_scheme">
+						<div class="box_section bg_scheme">
+							<figure class="team">
+								<img src="images/team-pic.png" alt="">
+							</figure>
 							<p>advice and insight on-hands provide and value massive add can we believe we where companies advise and invest only we ,policy a As .time record in impact create and leaders become technologies changing-game and entrepreneurs class-world help to is mission Our .advice </p>
 						</div>
-						<div class="team_box bg_scheme">
+						<div class="box_section bg_scheme">
+							<figure class="team">
+								<img src="images/team-pic.png" alt="">
+							</figure>
 							<p>advice and insight on-hands provide and value massive add can we believe we where companies advise and invest only we ,policy a As .time record in impact create and leaders become technologies changing-game and entrepreneurs class-world help to is mission Our .advice </p>
 						</div>
-						<div class="team_box bg_scheme">
+						<div class="box_section bg_scheme">
+							<figure class="team">
+								<img src="images/team-pic.png" alt="">
+							</figure>
 							<p>advice and insight on-hands provide and value massive add can we believe we where companies advise and invest only we ,policy a As .time record in impact create and leaders become technologies changing-game and entrepreneurs class-world help to is mission Our .advice </p>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page_inner">
+			<div class="sec">
+				<div class="ttl" id="entrepreneur">
+					<p>Entrepreneur</p>
+				</div>
+				<div class="text_contents">
+					<div class="con_box entrepreneur">
+						<div class="box_section bg_scheme">
+							<div class="box_ttl">
+								<h4>Entrepreneur 1</h4>
+							</div>
+							<p>advice and insight on-hands provide and value massive add can we believe we where companies advise and invest only we ,policy a As .time record in impact create and leaders become technologies changing-game and entrepreneurs class-world help to is mission Our .advice </p>
+						</div>
+						<div class="box_section bg_scheme">
+							<div class="box_ttl">
+								<h4>Entrepreneur 2</h4>
+							</div>
+							<p>advice and insight on-hands provide and value massive add can we believe we where companies advise and invest only we ,policy a As .time record in impact create and leaders become technologies changing-game and entrepreneurs class-world help to is mission Our .advice </p>
+						</div>
+						<div class="box_section bg_scheme">
+							<div class="box_ttl">
+								<h4>Entrepreneur 3</h4>
+							</div>
+							<p>advice and insight on-hands provide and value massive add can we believe we where companies advise and invest only we ,policy a As .time record in impact create and leaders become technologies changing-game and entrepreneurs class-world help to is mission Our .advice </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page_inner bg_inner-1">
+			<div class="sec">
+				<div class="ttl" id="contactus">
+					<p>Contact Us</p>
+				</div>
+				<div class="text_contents">
+					<div class="contact_us">
+						<div class="contact_info">
+							<input type="text" name="" id="" placeholder="Your Name">
+							<input type="text" name="" id="" placeholder="Your Email">
+						</div>
+						<div class="contact_message">
+							<textarea name="" id="" placeholder="Your Message"></textarea>
+						</div>
+						<button class="btn_send" type="button" name="" id="">Send <span class="glyphicon glyphicon-send"></span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page_inner">
+			<div class="sec">
+				<div class="footer">
+					<div class="bottom_1">
+						<div class="footer_logo">
+							<img src="images/logo2.png" alt="">
+						</div>
+						<div class="footer_address">
+							<address>
+								<p>Address Address Address Address, Address</p>
+								<p>Address Address Address Address, Address</p>
+							</address>
+						</div>
+					</div>
+					<hr>
+					<div class="bottom_2">
+						<p>Privacy Policy | Terms and Condition | © COPYRIGHT 2022 - Robuso</p>
 					</div>
 				</div>
 			</div>
@@ -128,5 +209,6 @@
 	</div>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
 </body>
 </html>
