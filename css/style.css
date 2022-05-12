@@ -139,6 +139,9 @@ body{
 	font-style: italic;
 	text-align: left;
 }
+.page_wrap .page_inner .sec .text_contents .con_box.brands .container{
+	width: 300px;
+}
 .page_wrap .page_inner .sec .text_contents .contact_us{
 
 }
@@ -246,5 +249,23 @@ body{
 .page_wrap hr{
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+}
+
+.page_wrap .carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.1)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.page_wrap .carousel-control.left {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.0001) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.0001) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0001)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
 }
 /*end bootstrap*/
